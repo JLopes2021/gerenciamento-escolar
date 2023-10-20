@@ -4,7 +4,7 @@ Um sistema de gerenciamento escolar desenvolvido em React.js.
 
 ## Capturas de Tela
 
-Inserir capturas de tela ou GIFs animados aqui.
+![Tela Inicial](image.png)
 
 ## Instalação
 
