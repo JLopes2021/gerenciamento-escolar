@@ -1,0 +1,114 @@
+  /*Calendário*/
+.Calendar {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .Calendar h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .CalendarNavigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .CalendarNavigation button {
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .CalendarNavigation button:focus {
+    outline: none;
+  }
+  
+  .CalendarNavigation span {
+    font-size: 1.2em;
+  }
+  
+  .Calendar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Calendar li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Calendar li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .Calendar li strong {
+    font-weight: bold;
+  }
+  
+  .EventDetails {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .EventDetails h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .EventDetails p {
+    margin: 10px 0;
+  }
+  /*Notificações*/  
+  .Notifications {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .Notifications h2 {
+    color: #c91717;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .Notifications ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Notifications li {
+    margin: 10px 0;
+  }
+
+  .Statistics {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .Statistics h2 {
+    color: #c91717;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .Statistics p {
+    margin: 10px 0;
+  }
+  
