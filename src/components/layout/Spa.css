@@ -72,7 +72,15 @@
   .EventDetails p {
     margin: 10px 0;
   }
-  /*Notificações*/  
+  /*Notificações*/
+  .read {
+    color: green; /* Altere a cor conforme necessário */
+  }
+  
+  .unread {
+    color: red; /* Altere a cor conforme necessário */
+  }
+    
   .Notifications {
     background-color: #fff;
     border: 1px solid #ccc;
