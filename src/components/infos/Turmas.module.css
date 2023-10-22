@@ -1,0 +1,70 @@
+/* Estilos para a lista de turmas */
+.turmasList {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Adicionado para tornar os itens flexíveis */
+    flex-direction: row-reverse; /* Adicionado para alinhar os itens verticalmente */
+}
+
+/* Estilos para cada item da lista de turmas */
+.turmasItem {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Adiciona uma transição de transformação de 0.3 segundos com uma curva de animação suave */
+}
+
+.turmasItem:hover {
+    transform: scale(1.05); /* Ao passar o mouse sobre o item, ele aumenta ligeiramente de tamanho */
+}
+
+/* Estilos para o conteúdo dentro de cada item */
+.turmasContent {
+    margin-bottom: 8px;
+}
+
+/* Estilos para a subheading */
+.subheading {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Estilos para o badge de notificação */
+.badge {
+    font-size: 0.8em;
+    padding: 4px 8px;
+    background-color: #007bff;
+    border-radius: 10px;
+}
+
+/* Adiciona um fundo gradiente suave */
+.turmasItem {
+    background-image: linear-gradient(to bottom, #f2f2f2, #ffffff);
+}
+
+/* Adiciona um elemento antes do conteúdo de .turmasItem */
+.turmasItem::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.turmasItem:hover::before {
+    background-color: rgba(255,255,255,0);
+}
+
+/* Altera o layout para grid com duas colunas de largura igual e espaço entre os itens */
+.turmasList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
