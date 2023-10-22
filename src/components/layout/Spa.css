@@ -1,122 +1,132 @@
-  /*Calendário*/
+/* Calendário */
 .Calendar {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  .Calendar h2 {
-    color: #333;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .CalendarNavigation {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-  }
-  
-  .CalendarNavigation button {
-    background-color: #61dafb;
-    border: none;
-    color: white;
-    padding: 8px 16px;
-    font-size: 14px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .CalendarNavigation button:focus {
-    outline: none;
-  }
-  
-  .CalendarNavigation span {
-    font-size: 1.2em;
-  }
-  
-  .Calendar ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .Calendar li {
-    margin: 10px 0;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .Calendar li:hover {
-    background-color: #f5f5f5;
-  }
-  
-  .Calendar li strong {
-    font-weight: bold;
-  }
-  
-  .EventDetails {
-    background-color: #f7f7f7;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 8px;
-    margin-top: 20px;
-  }
-  
-  .EventDetails h3 {
-    color: #333;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-  
-  .EventDetails p {
-    margin: 10px 0;
-  }
-  /*Notificações*/
-  .read {
-    color: green; /* Altere a cor conforme necessário */
-  }
-  
-  .unread {
-    color: red; /* Altere a cor conforme necessário */
-  }
-    
-  .Notifications {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  .Notifications h2 {
-    color: #c91717;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .Notifications ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .Notifications li {
-    margin: 10px 0;
-  }
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
 
-  .Statistics {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  .Statistics h2 {
-    color: #c91717;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .Statistics p {
-    margin: 10px 0;
-  }
-  
+.Calendar h2 {
+  color: #1E488F; /* Azul Escuro */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.CalendarNavigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.CalendarNavigation button {
+  background-color: #4F81C7; /* Azul Claro */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Adiciona uma transição suave */
+}
+
+.CalendarNavigation button:focus {
+  outline: none;
+}
+
+.CalendarNavigation button:hover {
+  background-color: #1E488F; /* Azul Escuro */
+}
+
+.CalendarNavigation span {
+  font-size: 1.2em;
+}
+
+.Calendar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Calendar li {
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Calendar li:hover {
+  background-color: #f5f5f5;
+}
+
+.Calendar li strong {
+  font-weight: bold;
+}
+
+.EventDetails {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+.EventDetails h3 {
+  color: #1E488F; /* Azul Escuro */
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.EventDetails p {
+  margin: 10px 0;
+}
+
+/* Notificações */
+.read {
+  color: #4F81C7; /* Azul Claro */
+}
+
+.unread {
+  color: #FF6961; /* Tom de Vermelho */
+}
+
+.Notifications {
+  background-image: linear-gradient(to bottom, #f9f9f9, #fff); /* Adiciona um fundo gradiente suave */
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+.Notifications h2 {
+  color: #FF6961; /* Tom de Vermelho */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.Notifications ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Notifications li {
+  margin: 10px 0;
+}
+
+/* Estatísticas */
+.Statistics {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+.Statistics h2 {
+  color: #FF6961; /* Tom de Vermelho */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.Statistics p {
+  margin: 10px 0;
+}
