@@ -1,9 +1,10 @@
+  
 /* Estilos para a lista de turmas */
 .turmasList {
     list-style: none;
     padding: 0;
-    display: flex; /* Adicionado para tornar os itens flexíveis */
-    flex-direction: row-reverse; /* Adicionado para alinhar os itens verticalmente */
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 /* Estilos para cada item da lista de turmas */
@@ -14,11 +15,11 @@
     margin-bottom: 10px;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease; /* Adiciona uma transição de transformação de 0.3 segundos com uma curva de animação suave */
+    transition: transform 0.3s ease;
 }
 
 .turmasItem:hover {
-    transform: scale(1.05); /* Ao passar o mouse sobre o item, ele aumenta ligeiramente de tamanho */
+    transform: scale(1.05);
 }
 
 /* Estilos para o conteúdo dentro de cada item */
@@ -29,14 +30,14 @@
 /* Estilos para a subheading */
 .subheading {
     font-size: 1.2em;
-    color: #333;
+    color: #1E488F; /* Azul Escuro */
 }
 
 /* Estilos para o badge de notificação */
 .badge {
     font-size: 0.8em;
     padding: 4px 8px;
-    background-color: #007bff;
+    background-color: #4F81C7; /* Azul Claro */
     border-radius: 10px;
 }
 
@@ -68,3 +69,21 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
+
+/* Estilos para o botão "Mostrar Mais" e "Mostrar Menos" */
+.showMoreButton {
+    background-color: #4F81C7; /* Azul Claro */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+  
+  .showMoreButton:hover {
+    background-color: #1E488F; /* Azul Escuro */
+  }
+  
